@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- MY THEME Black -->
+
+    <style name="Theme_Black" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="pageBackground">@style/page_background_black</item>
+        <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:textViewStyle">@style/TextViewStyleWhite</item>
+    </style>
+
+    <!--
+          <item name="actionBarSize">65dip</item>
+          <item name="android:actionBarSize">65dip</item>
+    -->
+
+    <style name="Widget.MyTheme.ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/holo_green_light2</item>
+        <item name="background">@color/holo_green_light2</item>
+        <item name="titleTextStyle">@style/Widget.MyTheme.TitleTextStyle</item>
+        <item name="android:titleTextStyle">@style/Widget.MyTheme.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/Widget.MyTheme.SubTitleTextStyle</item>
+    </style>
+
+    <style name="Widget.MyTheme.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25px</item>
+    </style>
+
+    <style name="Widget.MyTheme.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22px</item>
+    </style>
+
+    <style name="Widget.MyTheme.SubTitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- MY theme Ends here -->
+
+
+    <!-- MY THEME WHITE -->
+
+    <style name="Theme_White" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="pageBackground">@style/menu_background_white</item>
+        <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:textViewStyle">@style/TextViewStyleBlack</item>
+    </style>
+
+    <!--
+          <item name="actionBarSize">65dip</item>
+          <item name="android:actionBarSize">65dip</item>
+    -->
+
+    <style name="Widget.MyTheme.ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/holo_green_light2</item>
+        <item name="background">@color/holo_green_light2</item>
+        <item name="titleTextStyle">@style/Widget.MyTheme.TitleTextStyle</item>
+        <item name="android:titleTextStyle">@style/Widget.MyTheme.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/Widget.MyTheme.SubTitleTextStyle</item>
+    </style>
+
+    <style name="Widget.MyTheme.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25px</item>
+    </style>
+
+    <style name="Widget.MyTheme.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22px</item>
+    </style>
+
+    <style name="Widget.MyTheme.SubTitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- MY theme Ends here -->
+
+</resources>

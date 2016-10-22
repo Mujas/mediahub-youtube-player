@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:background="@color/SideCategory"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|bottom"
+        android:maxLines="2"
+        android:paddingLeft="20dp"
+        android:text="Large Text asjdsjjdjdjdjdjjdjdjdjdjdjddjjd"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="Video"
+        android:textColor="@color/holo_green_light2"
+        android:textSize="20dp" />
+
+</RelativeLayout>

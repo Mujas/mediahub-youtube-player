@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/ws_munday_slidingmenu_test_menu"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000" >
+	<com.handmark.pulltorefresh.library.PullToRefreshListView
+		xmlns:ptr="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/listView_genreitems"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/SideCategory"
+		android:listSelector="#3333B5E5"
+		ptr:ptrMode="both"
+		tools:listitem="@layout/item_genre_list" >
+	</com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

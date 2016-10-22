@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="dark_blue">#2B3990</color>
+    <color name="sky_blue">#BBD0ED</color>
+    <color name="blue">#2554C7</color>
+    <color name="charmcolor">#26466D</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#9999cc00</color>
+    <color name="holo_green_light2">#96C925</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="light_gray">#EFEDED</color>
+    <color name="BlackTransparent">#99000000</color>
+     <color name="PurpleLight">#1144466F</color>
+     <color name="SideCategory">#333333</color>
+     
+
+</resources>

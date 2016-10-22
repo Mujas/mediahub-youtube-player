@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center" >
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="5dp"
+		android:text="www.uniwic.com"
+		android:textColor="@android:color/holo_orange_dark" />
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true" >
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:paddingBottom="22.0dip"
+			android:paddingRight="22.0dip" >
+			<ImageView
+				android:id="@+id/connect_small_gear"
+				android:layout_width="24.0dip"
+				android:layout_height="24.0dip"
+				android:src="@drawable/connect_gear_small" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linearLayout1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerInParent="true"
+			android:paddingLeft="18.0dip"
+			android:paddingTop="18.0dip" >
+			<ImageView
+				android:id="@+id/connect_big_gear"
+				android:layout_width="36.0dip"
+				android:layout_height="36.0dip"
+				android:src="@drawable/connect_gear_big" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@+id/linearLayout1"
+			android:layout_marginTop="50dp"
+			android:text="Loading..."
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+	</RelativeLayout>
+</RelativeLayout>
